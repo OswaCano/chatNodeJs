@@ -1,0 +1,79 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #1a0d13;
+    color: #E8C7D3;
+}
+
+h2 {
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #962D55;
+}
+
+#in-chat {
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #962D55;
+    box-shadow: 1px 3px 5px rgba(255, 0, 255, 0.05);
+    border-radius: 8px;
+    background: #2d1724;
+}
+
+#chat-window {
+    height: 400px;
+    overflow: auto;
+    background: #1a0d13;
+}
+
+#output p {
+    padding: 14px;
+    margin: 0 20px;
+    border-bottom: 1px solid #962D55;
+    color: #E8C7D3;
+}
+
+#feedback p {
+    color: #A17A88;
+    padding: 14px 0px;
+    margin: 0 20px;
+}
+
+#output strong {
+    color: #c02c72;
+}
+
+label {
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 20px;
+    color: #A17A88;
+}
+
+input {
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #3e1f30;
+    border: 0;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #962D55;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    color: #E8C7D3;
+}
+
+button {
+    background: #c02c3d;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 12px 0;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #962D55;
+}
